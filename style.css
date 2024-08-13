@@ -133,25 +133,20 @@ aside {
 }
 
 .employees-img {
-  background-image: url(employee-img.jpg);
   border-radius: 50%;
   width: 197px;
   height: 197px;
   flex-shrink: 0;
   background-size: cover;
   background-position: center;
-  order: 1;
 }
 
-.employees-img2 {
-  background-image: url(employee-img2.jpg);
-  border-radius: 50%;
-  width: 197px;
-  height: 197px;
-  flex-shrink: 0;
-  background-size: cover;
-  background-position: center;
-  order: 1;
+.employees-img.img1 {
+  background-image: url("employee-img.jpg");
+}
+
+.employees-img.img2 {
+  background-image: url("employee-img2.jpg");
 }
 
 .employees-info {
