@@ -127,7 +127,7 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
-
+  align-items: center; /* Center content */
 }
 
 .specialist-img {
@@ -326,6 +326,15 @@ a {
   .icons {
     margin-top: 0;
   }
+}
+
+.specialist:nth-of-type(odd) .specialist-info-wrapper {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.specialist:nth-of-type(even) .specialist-info-wrapper {
+  align-items: flex-end;
 }
 
 @media screen and (max-width: 320px) {
